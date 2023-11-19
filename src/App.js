@@ -1,9 +1,16 @@
 import React from 'react';
+import News from './News';
+import './scss/style.scss';
 
 function App() {
 	return (
 		<div className='App'>
-			<h1>React Template</h1>
+			<section>
+				<News />
+				<News />
+				<News />
+				<News />
+			</section>
 		</div>
 	);
 }

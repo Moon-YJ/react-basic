@@ -1,0 +1,30 @@
+@import 'reset';
+
+h1 {
+	margin-bottom: 40px;
+	font: bold 50px/1 'arial';
+	color: #333;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	article {
+		width: 23%;
+		padding: 30px;
+		background-color: #fff;
+		border-radius: 6px;
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+		cursor: pointer;
+		&:hover {
+			background-color: aqua;
+			h2,
+			p,
+			a {
+				color: #fff;
+			}
+		}
+	}
+}
